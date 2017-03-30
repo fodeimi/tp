@@ -20,20 +20,22 @@ public class Point
       x=0; y=0;
      
    }
-  public void setx(float a)
+ // Ou sont les get
+  public void setX(float a)
     { 
       x=a; 
     }
-  public void sety(float b)
+  public void setY(float b)
      {
       y=b;
       }
           
-   public void afficherCoordonnée()
+   public void afficherCoordonnee()
        {
        System.out.println("Abscisse =" +x);
        System.out.println("Ordonné =" +y);
         }
+ // ou sont les autres méthodes?
           
     /**
      * @param args the command line arguments
@@ -43,6 +45,7 @@ public class Point
      Point p=new Point();
      p.x= 2; p.y= 3;
      p.afficherCoordonnée();
+     
  
      }
     
